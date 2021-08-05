@@ -1,0 +1,251 @@
+
+.container{
+  background: linear-gradient(
+    153deg
+    ,#16213e,#16213e 66%,#000);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pages-home {
+  width: 100vw;
+  height: 100vh;
+  font-size: 30px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+
+.pages-home .title {
+   width: 70%;
+   margin-top: 50px;
+   text-align: start;
+ 
+  
+  
+}
+.btn-home{
+  max-width: 1280px;
+  width: 60%;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 5px;
+ 
+}
+.btn-exit{
+  cursor: pointer;
+
+}
+.pages-home .title h2{
+  text-align: start;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+}
+.content{
+  /*border: 1px solid #fff;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  height: 100%;
+  margin-bottom: 50px;
+}
+.box-logo {
+  width: 250px;
+  height: 100px;
+  border: none;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  padding: 5px;
+}
+.box-logo:hover{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+
+.box-logo .ecrown{
+     width: 200px;
+     height: 40px;
+ 
+}
+.box-logo .maresia{
+  width: 150px;
+  height: 80px;
+
+}
+.box-logo .iomega{
+  width: 200px;
+  height: 40px;
+ 
+}
+.box-logo .wacom{
+  width: 150px;
+  height: 25px;
+ 
+}
+.box-logo .logitech{
+  width: 200px;
+  height: 40px;
+ 
+}
+.box-logo .cisco{
+  width: 150px;
+  height: 70px;
+
+}
+.box-logo .huion{
+  width: 110px;
+  height: 70px;
+ 
+}
+.box-logo .topper{
+  width: 200px;
+  height: 50px;
+
+}
+.box-logo .makerbot{
+  width: 100px;
+  height: 80px;
+  
+}
+.box-logo .hdstore{
+  width: 140px;
+  height: 70px;
+  
+}
+.box-logo .seagate{
+  width: 200px;
+  height: 40px;
+  
+}
+.box-logo .rainha{
+  width: 200px;
+  height: 40px;
+ 
+}
+.box-logo .wd-digital{
+  width: 200px;
+  height: 45px;
+ 
+}
+.box-logo .lacie{
+  width: 200px;
+  height: 60px;
+  
+}
+.box-logo .nvidia{
+  width: 200px;
+  height: 35px;
+  
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .user-login__title{
+      margin: 0px;
+
+  }
+ 
+}
+
+@media (max-width: 600px){
+  .container{
+    height: 100%;
+  }
+
+  .pages-home{
+    height: 100%;
+ 
+  }
+  .pages-home .title{
+    width: 90%;
+    margin-top: 5px;
+  }
+  .pages-home .title h2 {
+    font-size: 1.4rem;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+  .container{
+    height: 100%;
+  }
+
+  .pages-home{
+    height: 100%;
+ 
+  }
+  .pages-home .title{
+    width: 90%;
+    margin-top: 5px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+  .container{
+    height: 100%;
+  }
+
+
+  .pages-home .title{
+    width: 90%;
+    margin-top: 0px;
+  }
+  .pages-home .title h2 {
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pages-home{
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  .container{
+    height: 100%;
+  }
+  
+  .pages-home{
+
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pages-home .title{
+    width: 85%;
+    margin-top: 15px;
+  }
+  
+}
